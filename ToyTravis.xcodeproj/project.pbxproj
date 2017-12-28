@@ -13,6 +13,8 @@
 		989EE4221FF49507003BBA9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 989EE4211FF49507003BBA9E /* Assets.xcassets */; };
 		989EE4251FF49507003BBA9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 989EE4231FF49507003BBA9E /* LaunchScreen.storyboard */; };
 		989EE4301FF49507003BBA9E /* ToyTravisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989EE42F1FF49507003BBA9E /* ToyTravisTests.swift */; };
+		B13CC954C0819716D57AE4BB /* Pods_ToyTravisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440EF385F88EF10F52D94EE6 /* Pods_ToyTravisTests.framework */; };
+		B85AC50A25447CA66B287BFA /* Pods_ToyTravis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC73D1E5DE128155DE0D1E5B /* Pods_ToyTravis.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		407FC08FD1CF09902CA202EF /* Pods-ToyTravisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToyTravisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToyTravisTests/Pods-ToyTravisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		440EF385F88EF10F52D94EE6 /* Pods_ToyTravisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToyTravisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		851321C54767BD50DB573C60 /* Pods-ToyTravis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToyTravis.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToyTravis/Pods-ToyTravis.release.xcconfig"; sourceTree = "<group>"; };
 		989EE4171FF49506003BBA9E /* ToyTravis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToyTravis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		989EE41A1FF49506003BBA9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		989EE41C1FF49506003BBA9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		989EE42B1FF49507003BBA9E /* ToyTravisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToyTravisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		989EE42F1FF49507003BBA9E /* ToyTravisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyTravisTests.swift; sourceTree = "<group>"; };
 		989EE4311FF49507003BBA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC73D1E5DE128155DE0D1E5B /* Pods_ToyTravis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToyTravis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21DF89BE9CCDFA8621E6DA5 /* Pods-ToyTravisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToyTravisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToyTravisTests/Pods-ToyTravisTests.release.xcconfig"; sourceTree = "<group>"; };
+		FFE7F481572B5B03024B19AA /* Pods-ToyTravis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToyTravis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToyTravis/Pods-ToyTravis.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B85AC50A25447CA66B287BFA /* Pods_ToyTravis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13CC954C0819716D57AE4BB /* Pods_ToyTravisTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				989EE4191FF49506003BBA9E /* ToyTravis */,
 				989EE42E1FF49507003BBA9E /* ToyTravisTests */,
 				989EE4181FF49506003BBA9E /* Products */,
+				D38885B1EEEF6A2CFB119DBA /* Pods */,
+				A6DF8691F2CC81E3017EB97A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = ToyTravisTests;
 			sourceTree = "<group>";
 		};
+		A6DF8691F2CC81E3017EB97A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC73D1E5DE128155DE0D1E5B /* Pods_ToyTravis.framework */,
+				440EF385F88EF10F52D94EE6 /* Pods_ToyTravisTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D38885B1EEEF6A2CFB119DBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFE7F481572B5B03024B19AA /* Pods-ToyTravis.debug.xcconfig */,
+				851321C54767BD50DB573C60 /* Pods-ToyTravis.release.xcconfig */,
+				407FC08FD1CF09902CA202EF /* Pods-ToyTravisTests.debug.xcconfig */,
+				D21DF89BE9CCDFA8621E6DA5 /* Pods-ToyTravisTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 989EE4341FF49507003BBA9E /* Build configuration list for PBXNativeTarget "ToyTravis" */;
 			buildPhases = (
+				86D935C576526DFE80F24DAB /* [CP] Check Pods Manifest.lock */,
 				989EE4131FF49506003BBA9E /* Sources */,
 				989EE4141FF49506003BBA9E /* Frameworks */,
 				989EE4151FF49506003BBA9E /* Resources */,
+				9562E15A64A48E388B7978FC /* [CP] Embed Pods Frameworks */,
+				6972461F5997DD63BA2022F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 989EE4371FF49507003BBA9E /* Build configuration list for PBXNativeTarget "ToyTravisTests" */;
 			buildPhases = (
+				638DE3B1C4E6C3E28DF6F91A /* [CP] Check Pods Manifest.lock */,
 				989EE4271FF49507003BBA9E /* Sources */,
 				989EE4281FF49507003BBA9E /* Frameworks */,
 				989EE4291FF49507003BBA9E /* Resources */,
+				15E4052BFE89DB9E73184814 /* [CP] Embed Pods Frameworks */,
+				41BEB3A0A14647FDF8BA7A6C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15E4052BFE89DB9E73184814 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToyTravisTests/Pods-ToyTravisTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41BEB3A0A14647FDF8BA7A6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToyTravisTests/Pods-ToyTravisTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		638DE3B1C4E6C3E28DF6F91A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6972461F5997DD63BA2022F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToyTravis/Pods-ToyTravis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86D935C576526DFE80F24DAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9562E15A64A48E388B7978FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToyTravis/Pods-ToyTravis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		989EE4131FF49506003BBA9E /* Sources */ = {
@@ -351,6 +482,7 @@
 		};
 		989EE4351FF49507003BBA9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFE7F481572B5B03024B19AA /* Pods-ToyTravis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -365,6 +497,7 @@
 		};
 		989EE4361FF49507003BBA9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 851321C54767BD50DB573C60 /* Pods-ToyTravis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -379,6 +512,7 @@
 		};
 		989EE4381FF49507003BBA9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 407FC08FD1CF09902CA202EF /* Pods-ToyTravisTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -395,6 +529,7 @@
 		};
 		989EE4391FF49507003BBA9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D21DF89BE9CCDFA8621E6DA5 /* Pods-ToyTravisTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
