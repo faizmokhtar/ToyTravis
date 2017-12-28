@@ -1,4 +1,4 @@
 language: swift
 os: osx
 osx_image: xcode9.2
-xcode_project: ToyTravis.xcodeproj
+xcode_workspace: ToyTravis.xcworkspace
